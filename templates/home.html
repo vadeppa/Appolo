@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<style>
+    h1{
+    color:blue;
+    }
+    h2{
+    color:gray;
+    }
+</style>
+<center><h1>Hydrabad Branch</h1></center>
+<center><img src="{% static 'image/photo.jpg' %}" width="300px" height="250px"></center>
+
+<marquee behavior="scroll" direction="up" scrollamount="1"><h2>Please go to Cabin</h2></marquee>
+<marquee behavior="scroll" direction="right" scrollamount="12"><h2>Emargency Available</h2></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="20"><h2>Doctor not available</h2></marquee>
+
+
+
+
+
+
+{% endblock %}
