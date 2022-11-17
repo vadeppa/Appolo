@@ -1,1 +1,1 @@
-web genicorn.Apollo.wsgi:application --log-file -
+web: genicorn.Apollo.wsgi
